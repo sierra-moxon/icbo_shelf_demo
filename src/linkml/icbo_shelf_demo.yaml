@@ -1,0 +1,46 @@
+id: https://w3id.org/icbo_shelf_demo/icbo_shelf_demo
+name: icbo_shelf_demo
+title: ICBO Shelf Demo
+description: |-
+  Enter a detailed description of your project here
+default_curi_maps:
+  - semweb_context
+imports:
+  - linkml:types
+prefixes:
+  icbo_shelf_demo: https://w3id.org/my_org/icbo_shelf_demo
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  famrel: http://example.org/famrel/
+default_prefix: icbo_shelf_demo
+default_range: string
+
+classes:
+  Person:
+   description: >-
+   class_uri: schema:Person
+   slots:
+     - id
+     - name
+     - birth_date
+     - age_in_years
+     - primary_email
+
+slots:
+
+  id:
+   identifier: true
+   slot_uri: schema:identifier
+
+  name:
+   slot_uri: schema:name
+
+  birth_date:
+
+  age_in_years:
+
+  primary_email:
+
+enums:

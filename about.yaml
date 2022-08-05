@@ -1,0 +1,3 @@
+name: icbo-shelf-demo
+description: my awesome datamodel is for awesome things
+source_schema_path: src/linkml/icbo_shelf_demo.yaml

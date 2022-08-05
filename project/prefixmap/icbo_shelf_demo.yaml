@@ -1,0 +1,11 @@
+{
+   "PATO": "http://purl.obolibrary.org/obo/PATO_",
+   "biolink": "https://w3id.org/biolink/",
+   "famrel": "http://example.org/famrel/",
+   "icbo_shelf_demo": "https://w3id.org/my_org/icbo_shelf_demo",
+   "linkml": "https://w3id.org/linkml/",
+   "schema": "http://schema.org/",
+   "Person": {
+      "@id": "schema:Person"
+   }
+}

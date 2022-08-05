@@ -1,0 +1,9 @@
+type Person
+  {
+    id: String!
+    name: String
+    birthDate: String
+    ageInYears: String
+    primaryEmail: String
+  }
+

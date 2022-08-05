@@ -1,0 +1,27 @@
+@prefix icbo_shelf_demo: <https://w3id.org/my_org/icbo_shelf_demo> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:Person a sh:NodeShape ;
+    sh:closed true ;
+    sh:description "" ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:maxCount 1 ;
+            sh:order 0 ;
+            sh:path schema:identifier ],
+        [ sh:maxCount 1 ;
+            sh:order 2 ;
+            sh:path icbo_shelf_demo:birth_date ],
+        [ sh:maxCount 1 ;
+            sh:order 4 ;
+            sh:path icbo_shelf_demo:primary_email ],
+        [ sh:maxCount 1 ;
+            sh:order 1 ;
+            sh:path schema:name ],
+        [ sh:maxCount 1 ;
+            sh:order 3 ;
+            sh:path icbo_shelf_demo:age_in_years ] ;
+    sh:targetClass schema:Person .
+

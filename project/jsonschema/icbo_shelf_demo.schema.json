@@ -1,0 +1,39 @@
+{
+   "$defs": {
+      "Person": {
+         "additionalProperties": false,
+         "description": "",
+         "properties": {
+            "age_in_years": {
+               "type": "string"
+            },
+            "birth_date": {
+               "type": "string"
+            },
+            "id": {
+               "type": "string"
+            },
+            "name": {
+               "type": "string"
+            },
+            "primary_email": {
+               "type": "string"
+            }
+         },
+         "required": [
+            "id"
+         ],
+         "title": "Person",
+         "type": "object"
+      }
+   },
+   "$id": "https://w3id.org/icbo_shelf_demo/icbo_shelf_demo",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": true,
+   "metamodel_version": "1.7.0",
+   "properties": {},
+   "required": [],
+   "title": "icbo_shelf_demo",
+   "type": "object",
+   "version": null
+}

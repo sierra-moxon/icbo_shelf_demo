@@ -1,0 +1,25 @@
+{
+   "_comments": "Auto generated from icbo_shelf_demo.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-08-05T12:21:13\n    Schema: icbo_shelf_demo\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: https://w3id.org/icbo_shelf_demo/icbo_shelf_demo\n    description: Enter a detailed description of your project here\n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+   "@context": {
+      "PATO": {
+         "@id": "http://purl.obolibrary.org/obo/PATO_",
+         "@prefix": true
+      },
+      "biolink": "https://w3id.org/biolink/",
+      "famrel": "http://example.org/famrel/",
+      "icbo_shelf_demo": {
+         "@id": "https://w3id.org/my_org/icbo_shelf_demo",
+         "@prefix": true
+      },
+      "linkml": "https://w3id.org/linkml/",
+      "schema": "http://schema.org/",
+      "@vocab": "https://w3id.org/my_org/icbo_shelf_demo",
+      "id": "@id",
+      "name": {
+         "@id": "schema:name"
+      },
+      "Person": {
+         "@id": "schema:Person"
+      }
+   }
+}
